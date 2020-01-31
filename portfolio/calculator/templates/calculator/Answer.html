@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Django calculator | Answer to </title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Roboto&display=swap" rel="stylesheet">
+	{% load static %}
+	<link type="text/css" rel="stylesheet" href="{% static "calculator/style.css" %}">
+	<script type="text/javascript" src="{% static "calculator/script.js" %}"></script>
+</head>
+<body>
+<div class="text">
+	<h1>{{ ansStr }} = {{ answer }}</h1>
+  	<button onclick="homePage()" class='calc-submit'>Home</button>
+</div>
+</body>
+</html>

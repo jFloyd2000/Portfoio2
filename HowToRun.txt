@@ -1,0 +1,10 @@
+To run the server on your local machine run the following commands
+
+
+From the directory this file is in run
+
+cd portfolio/
+
+python3 manage.py runserver
+
+Then, go to the link it gives you and add /calc to the end of the url

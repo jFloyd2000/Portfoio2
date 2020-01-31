@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Django calculator | home</title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Roboto&display=swap" rel="stylesheet">
+	{% load static %}
+	<link type="text/css" rel="stylesheet" href="{% static "calculator/style.css" %}">
+	<script type="text/javascript" src="{% static "calculator/script.js" %}"></script>
+</head>
+<body>
+  <div class='text'>
+     <h1 id='test'>Welcome to this online Django calculator</h1>
+     <p>What makes this calculator so special? All of the logic is run on the backend using python django! The only  Javascript used is to get input using buttons</p>
+     <p>Download the source code for this project on GitHub at<a href="#"></a></p>
+  </div>
+  <div class="calc-background">
+  	<input type="text" name="digitOne" placeholder="First number" class="calc-input" id="inputOne">
+  	<input type="text" name="Operator" placeholder="Operator" class="calc-input" id="inputTwo">
+  	<input type="text" name="digitTwo" placeholder="Second number" class="calc-input" id="inputThree">
+  	<button onclick="nextPage()" class='calc-submit'>Submit</button>
+  </div>
+</body>
+</html>
